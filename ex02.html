@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>	
+	
+	
+	<div>
+		<center> <h2>&lt; 책갈피 기능 &gt;</h2></center>
+		<a name='top'></a>			
+	</div>
+	<div>		
+		<a href='#user'>[이름]</a> &nbsp;
+		<a href='#addr'>[주소]</a> &nbsp;
+		<a href='#tel'>[전화번호]</a> &nbsp;
+		<a href='#foot'>[참고]</a> &nbsp;
+	</div>
+	
+	<p>정보영역</p>...생략 <p>이름 영역</p>
+	<p><a name='user'style='color:gold'><b>홍길동</b></a></p>
+	<a href='#top'>[TOP]</a>
+	
+	<p>정보영역</p>...생략 <p>주소 영역</p>
+	<p><a name='addr'style='color:gold'><b>...동</b></a></p>
+	<a href='#top'>[TOP]</a>
+	
+	<p>정보영역</p>...생략 <p>전화번호 영역</p>
+	<p><a name='tel'style='color:gold'><b>010-aaaa-bbbb</b></a></p>
+	<a href='#top'>[TOP]</a>
+	
+	<p>정보영역</p>...생략 <p>참고 영역</p>
+	<p><a name='foot'style='color:gold'><b>참고참고</b></a></p>
+	<a href='#top'>[TOP]</a>
+	
+<hr>
+	안 &nbsp;&nbsp;&nbsp;녕
+
+<hr>	
+	<h3>div  공간분할</h3>
+	<div style='background-color: pink'>
+	div 영역<span style='background-color:aliceblue'>span 첫번째 영역</span>
+	div 영역<span style='background-color:skyblue'>span 두번째 영역</span>
+	div 영역<span style='background-color:white'>span 세번째 영역</span>
+	</div>
+	
+<hr>
+	<h3>div 공간분할</h3>
+	<div style='background-color:pink'>div 첫번째 영역</div>
+	<div style='background-color:aliceblue'>div 두번째 영역</div>
+	<div style='background-color:skyblue'>div 세번째 영역</div>
+<hr>
+	<h3>div 공간분할</h3>
+	<span style='background-color:tan'>span 첫번째 영역</span>
+	<span style='background-color:silver'>span 두번째 영역</span>
+	<span style='background-color:gold'>span 세번째 영역</span>
+	
+<hr>
+	<fieldset style='width:150px;'>
+		<legend>취미조사</legend>
+		1<input type='checkbox'>
+		2<input type='checkbox'>
+		3<input type='checkbox'>
+		4<input type='checkbox'>
+	</fieldset>
+	
+<hr>	
+	<textarea rows='3' cols='50'></textarea>
+	<button type='submit'>
+		<img src='cat.jpg' width='50px' deight='50px'>전송
+	</button> <!-- form이 ㅇ없어 작동 안함  -->
+	<button type='button'>버튼</button>
+	
+<hr>
+	<form>
+		<select size='1' name='test'> <!-- 1개만 보이게 -->
+			<option value='p1'>사과 <!-- '사과'는 사용자가 표면적으로 보는 값이고, value값이 정해져야 그 값이 넘어간다 -->
+			<option value='p2' selected>배 <!-- 기본적으로 '배'가 보이게. selected안하면 첫번째인 '사과'가 보임 -->
+			<option value='p3'>귤
+		</select>
+		<input type='submit' value='전송'>
+	</form>	
+	
+<hr>
+	<!--  <form action="ex03.html" method='get'> url창에 name으로 잡힌 명들이  표기됨. 개인정보 다루기는 부적절-->
+	<form action="ex03.html" method='post'>
+		이름: <input type='text' name='nn'><br>
+		주소: <input type='text'name='aa'><br>
+		<input type='reset' value='초기화'> <!-- reset과 submit은 form안에서만 작동 -->
+		<input type='submit' value='전송'>
+		<input type='button' value='버튼'>
+	</form>
+	
+<hr>
+	1<input type='checkbox'>
+	2<input type='checkbox'>
+	3<input type='checkbox'>
+	4<input type='checkbox'>
+	
+<hr>
+	10th<input type='radio' name='age' checked='checked'>
+	20th<input type='radio' name='age'>
+	30th<input type='radio' name='age'>
+	1<input type='radio' name='num'>
+	2<input type='radio' name='num'>
+	
+	
+<hr>
+	<input type='button' value='버튼'><br>
+	<input type='submit' value='서브밋'><br>
+	<input type='reset' value='리셋'><br>
+	<input type='text' value='내용'><br>
+	<input type='password' value='비번' maxlength='10'><br>
+	<input type='radio'><br>
+	<input type='checkbox'><br>	
+	
+<hr>
+	<a href="ex02.html" target="_blank">ex02 이동</a><br>
+	<a href="https://www.naver.com/">(현재 창에서)네이버로 이동</a><br>
+	<a href="https://www.naver.com/" target="_blank">(새 창에서)네이버로 이동</a><br>
+	<!-- target="black": 새창으로 네이버 실행 -->
+	<a href="https://www.naver.com/" title="https://www.naver.com/">네이버로 이동</a><br>
+	<!--  title="https://www.naver.com/": 마우스 올리면 내용이 뜸 -->
+<hr>
+	<h1>이미지 넣기</h1>
+	<a href="https://www.naver.com/" title="https://www.naver.com/" target="_blank">
+		<img  src="cat.jpg" width="30%" height="30%" border="5">
+	</a>
+	
+	<br>
+	<img  src="cat.jpg" width="300px" height="200px" border="5">
+	
+	<br>
+	<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOvrTAiU45ynfcZJ3pPpJwHeBpg7xpZA-9HxvnohPs_Ttc7Eqk" 
+		alt="어떤 기능?" width="300px" height="200px" border="5">
+		<!-- alt:  표면상 보이는 건 없고.. 이미지 주소로 이미지를 가져오는 경우, 원본의 주소가 변경되어 버리면 이미지를 가져오지 못하는 겨우 발생.-> 글씨로 대체되어 알려줌 -->
+</body>
+</html>
